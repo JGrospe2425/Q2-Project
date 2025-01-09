@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Rolls Recipe</title>
+    <!-- Bootstrap5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .recipe-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            max-width: 350px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #343a40;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: #343a40;
+        }
+
+        ul, ol {
+            text-align: left;
+            margin-left: 30px;
+            font-size: 1.1rem;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .btn-container {
+            margin-top: 20px;
+        }
+
+        .btn-container button {
+            padding: 15px 30px;
+            background-color: #343a40;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-container button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+
+   <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Simple Meals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html" target="_blank">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipeform.html">Share Recipe</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Heading Section -->
+        <h1 class="text-center">Spring Rolls</h1>
+
+        <!-- Single Recipe Container -->
+        <div class="recipe-container">
+            <!-- Image Section -->
+            <img src="https://ourlittlenook.com/wp-content/uploads/2021/01/IMG_0243-2-1080x1062.jpg" alt="Spring Rolls Image" class="hero-image">
+            
+            <!-- Ingredients Section -->
+            <h3>Ingredients for Spring Rolls</h3>
+            <ul>
+                <li>8 rice paper wrappers</li>
+                <li>1 cup cooked rice noodles</li>
+                <li>1/2 cup shredded carrots</li>
+                <li>1/2 cup cucumber, julienned</li>
+                <li>1/2 cup cooked shrimp or tofu, sliced</li>
+                <li>1/4 cup fresh mint leaves</li>
+                <li>1/4 cup fresh basil leaves</li>
+                <li>Lettuce leaves</li>
+            </ul>
+
+            <h3>Ingredients for Peanut Sauce</h3>
+            <ul>
+                <li>1/4 cup peanut butter</li>
+                <li>2 tbsp soy sauce</li>
+                <li>1 tbsp lime juice</li>
+                <li>1 tbsp hoisin sauce</li>
+                <li>1 tsp sesame oil</li>
+                <li>Water (to thin)</li>
+            </ul>
+
+            <!-- Procedure Section -->
+            <h3>Instructions</h3>
+            <ol>
+                <li><strong>Prepare Ingredients:</strong> Arrange all the fillings for easy assembly.</li>
+                <li><strong>Soften Rice Paper:</strong> Dip one rice paper wrapper in warm water for about 10 seconds until soft. Place on a damp towel.</li>
+                <li><strong>Assemble Rolls:</strong> Lay lettuce, rice noodles, carrots, cucumber, shrimp or tofu, and herbs in the center of the wrapper. Fold the bottom over the filling, then fold in the sides and roll tightly.</li>
+                <li><strong>Make Peanut Sauce:</strong> In a small bowl, mix peanut butter, soy sauce, lime juice, hoisin sauce, sesame oil, and water until smooth.</li>
+                <li><strong>Serve:</strong> Serve the spring rolls with peanut sauce for dipping.</li>
+                <li><strong>Enjoy!</strong> Your fresh and flavorful spring rolls are ready!</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Bootstrap5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

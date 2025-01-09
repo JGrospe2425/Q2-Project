@@ -1,0 +1,59 @@
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-image: url('https://i.pinimg.com/736x/c1/cc/02/c1cc02d2f2199982bb771e2f02c45d5d.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #343a40;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+        .carousel-inner img {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: #343a40;
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+        #Home .content {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        #demo {
+            max-width: 600px;
+            max-height: 400px;
+            margin: 20px auto;
+        }
+        
+        #demo img {
+            max-height: 400px;
+            object-fit: cover;
+        }
